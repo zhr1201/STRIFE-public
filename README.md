@@ -21,7 +21,7 @@ The serial clusterer can work fine but there are known memory corruption issues 
 This makefile orgnization doesn't support multi-folder C++ projects very well. Including header files from other directory in the src files and test files can lead to redifinition or missing implmentation issues. Probably should switch to https://github.com/zhr1201/ParrallelSudokuSolver (a Kaldi style makefile) for continuing working on this project.
 
 ## Future work
-We dicided not to work on the project for now.
+We decided not to work on the project for now.
 
 ## For developers
 Branching: create ur own branch from develop, merge into and merge from the develop branch frequently to prevent diverging too much from the develop branch.
