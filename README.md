@@ -12,8 +12,13 @@ We implemented two modified STRIFE schedulers which work better than the origina
 ## Missing LockManager, TxnProcessor implementation (MVCC, OCC and etc.)
 We deleted those parts because they are parts of the assigment of the CMSC624 course https://github.com/abadid/624Assignment2. If you want to finish those parts, please also don't make this public!
 
-## Known bugs
+## Known Issues
+
+### Parallel STRIFE clusterer bug
 The serial clusterer can work fine but there are known memory corruption issues with the parallel clusterer. We didn't fix it cause we are not working on the project at least for now.
+
+### Makefile issues
+This makefile orgnization doesn't support multi-folder C++ projects very well. Including header files from other directory in the src files and test files can lead to redifinition or missing implmentation issues. Probably should switch to https://github.com/zhr1201/ParrallelSudokuSolver (a Kaldi style makefile) for continuing working on this project.
 
 ## Future work
 We dicided not to work on the project for now.
