@@ -5,6 +5,7 @@ CMSC624 Database Architecture and implementation final project. Haoran Zhou, Tia
 https://dl.acm.org/doi/pdf/10.1145/3318464.3389764
 
 # Improved STRIFE
+https://github.com/zhr1201/STRIFE-public/blob/master/CMSC624_final_project.pdf
 We implemented two modified STRIFE schedulers which work better than the original STRIFE under certain workloads. But we haven't got the time to reproduce the throughput under the original workloads in the paper.
 
 # Missing LockManager, TxnProcessor implementation (MVCC, OCC and etc.)
